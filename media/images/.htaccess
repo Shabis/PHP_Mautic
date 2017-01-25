@@ -17,6 +17,10 @@ SetHandler default-handler
 
 ForceType text/plain
 
+<FilesMatch "\.svg$">
+    ForceType image/svg+xml
+</FilesMatch>
+
 <FilesMatch "\.css$">
     ForceType text/css
 </FilesMatch>

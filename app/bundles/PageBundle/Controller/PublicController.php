@@ -448,7 +448,7 @@ class PublicController extends CommonFormController
                     $options['slides'] = [
                         [
                             'order'            => 0,
-                            'background-image' => $assetsHelper->getUrl('media/images/mautic_logo_lb200.png'),
+                            'background-image' => $assetsHelper->getUrl('media/images/inboundRx_logo_fullcolor.svg'),
                             'captionheader'    => 'Caption 1',
                         ],
                         [
