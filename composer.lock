@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e20a45c5059bc57041ef713ad2d67600",
-    "content-hash": "eeb76d5a3f62a6484431700eb22dd337",
+    "hash": "8eb660c369e2a77d88685301fb519746",
+    "content-hash": "b1f2f9580a751f80aeaa5cec0da3dd68",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1510,16 +1510,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.0.1",
+            "version": "8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "2ca74e98ddfb2780057b1a5654616f1179be85e0"
+                "reference": "ba82f4f7e9bb9509e6bcddd42e07bebf6f6b2e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/2ca74e98ddfb2780057b1a5654616f1179be85e0",
-                "reference": "2ca74e98ddfb2780057b1a5654616f1179be85e0",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/ba82f4f7e9bb9509e6bcddd42e07bebf6f6b2e92",
+                "reference": "ba82f4f7e9bb9509e6bcddd42e07bebf6f6b2e92",
                 "shasum": ""
             },
             "require": {
@@ -1568,7 +1568,7 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2017-01-11 11:40:50"
+            "time": "2017-01-25 11:07:04"
         },
         {
             "name": "giggsey/locale",
@@ -8537,7 +8537,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.6.19|~7.0.0"
+        "php": "~5.6.19|~7.0.0",
+        "ext-mcrypt": "*",
+        "ext-imap": "*",
+        "ext-intl": "*",
+        "ext-pgsql": "*"
     },
     "platform-dev": []
 }

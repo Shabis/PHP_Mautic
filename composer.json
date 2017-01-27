@@ -20,7 +20,6 @@
         "ext-mcrypt": "*",
         "ext-imap": "*",
         "ext-intl": "*",
-        
 
         "symfony/console": "~2.8",
         "symfony/debug": "~2.8",
@@ -128,12 +127,12 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "cp ./build/hooks/pre-commit ./.git/hooks/pre-commit"
         ],
         "post-update-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap"
-        ],
-        "_removed_scripts_for_heroku": [
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "cp ./build/hooks/pre-commit ./.git/hooks/pre-commit"
         ]
