@@ -986,7 +986,7 @@ class PageController extends FormController
                         ],
                         [
                             'order'            => 1,
-                            'background-image' => $assetsHelper->getUrl('media/images/mautic_logo_db200.png'),
+                            'background-image' => $assetsHelper->getUrl('media/images/inboundRx_logo_white.png'),
                             'captionheader'    => 'Caption 2',
                         ],
                     ];
